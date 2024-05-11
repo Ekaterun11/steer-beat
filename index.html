@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>steer-beat</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">STREET-BEAT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О нас</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                каталог
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">беговые</a></li>
+                                <li><a class="dropdown-item" href="#">повседневные</a></li>
+                                <li><a class="dropdown-item" href="#">сникеры</a></li>
+                                <li><a class="dropdown-item" href="#">кеды</a></li>
+                                
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">остальное</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled"></a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+                        <button class="btn btn-outline-success" type="submit">Поиск</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="section-slider">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/1.webp"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/2.png"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/3.jpeg"
+                            class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="section-prem">
+        <div class="container">
+            <h1>Наши преимущества</h1>
+            <div class="colonki">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/22.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Подберем любые кроссовки на ваш вкус</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/23.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Быстро отвечаем на интересующие вопросы</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/24.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Гарантия надолго</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-team">
+        <div class="container">
+            <h1>Актуальность</h1>
+            <div class="z">
+                <div class="line1">
+                    <div class="cell">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/5.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">New-balans 2002r<br>Спортивные кроссовки</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./assets/img/4.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text">New balans 530<br>Повседневный вариант</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line2">
+                        <div class="cell">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./assets/img/6.jpeg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Adidas<br>Кеды campus</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="card" style="width: 18rem;">
+                                <img src="./assets/img/5cdbbd02bedcc54c412461e2.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text"> Nike M2K tekno<br>Повседневные кроссы</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <div class="progress" role="progressbar" aria-label="Пример успеха" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 25%">27%</div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Пример информации" aria-valuenow="50"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-info text-dark" style="width: 50%">50%</div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Пример предупреждения" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-warning text-dark" style="width: 75%">73%</div>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Пример опасности" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 100%">99%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-galery">
+        <div class="container d-flex flex-column align-items-center">
+            <h1>Категории</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
+                <div class="col p-0 mt-4 d-flex flex-column align-items-center d-flex flex-column align-items-center">
+                    <h5 class="funny-skates text-center">Беговые</h5>
+                    <img src="./assets/img/8.jpg"
+                        class="object-fit-cover w-100" alt="...">
+                    <img src="./assets/img/9.png"
+                        class="object-fit-cover w-100" alt="...">
+
+                </div>
+                <div class="col p-0 mt-4 d-flex flex-column align-items-center">
+                    <h5 class="funny-skates text-center">Повседневные</h5>
+                    <img src="./assets/img/14.jpeg"
+                        class="object-fit-cover w-100" alt="...">
+                    <img src="./assets/img/15.jpg"
+                        class="object-fit-cover w-100" alt="...">
+
+                </div>
+                <div class="col p-0 mt-4 d-flex flex-column align-items-center">
+                    <h5 class="funny-skates text-center">Сникеры</h5>
+                    <img src="./assets/img/12.jpg" class="object-fit-cover w-100" alt="...">
+                    <img src="./assets/img/13.jpeg"
+                        class="object-fit-cover w-100" alt="...">
+
+                </div>
+                <div class="col p-0 mt-4 d-flex flex-column align-items-center">
+                    <h5 class="funny-skates text-center">Кеды</h5>
+                    <img src="./assets/img/10.jpeg"
+                        class="object-fit-cover w-100" alt="...">
+                    <img src="./assets/img/11.jpeg"
+                        class="object-fit-cover w-100" alt="...">
+
+                </div>
+                <div class="col p-0 mt-4 d-flex flex-column align-items-center">
+                    <h5 class="funny-skates text-center">Остальное</h5>
+                    <img src="./assets/img/16.jpg"
+                        class="object-fit-cover w-100" alt="...">
+                    <img src="./assets/img/17.jpg"
+                        class="object-fit-cover w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-news">
+        <h1>Новости</h1>
+        <div class="container">
+            <div class="collumn">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Новое поступление</h5>
+                        <p class="card-text">Новое поступление обуви на любой вкус</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="collumn">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Конкурс на пару обуви на любой вкус</h5>
+                        <p class="card-text">Дима принимает поздравления в виде подзатыльников XD </p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="collumn">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Распродажа</h5>
+                        <p class="card-text">Успейте купить пару по выгодной цене</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="collumn">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Обновление</h5>
+                        <p class="card-text">Открылась доставка на дом курьером</p>
+                        <a href="#" class="btn btn-primary">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-auth">
+        <h1>Форма обратной связи</h1>
+        <div class="container">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">ФИО</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите ФИО">
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите Email">
+                    <div id="emailHelp" class="form-text"></div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Телефон</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="+7 9_ _ _ _ _ _ _ _ _">
+                    <div id="emailHelp" class="form-text"></div>
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Даю согласие на обработку персональных данных</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Подписаться</button>
+              </form>
+        </div>
+    </div>
+</body>
+
+</html>
